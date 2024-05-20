@@ -6,9 +6,9 @@
     "background": {
         "service_worker": "background.js"
     },
-    "permissions": ["storage", "activeTab", "scripting"],
-    "action": {
-        "default_popup": "popup.html"
-    },
-    "options_page": "options.html"
+    "permissions": ["storage", "activeTab", "scripting", "sidePanel", "contextMenus"],
+    "side_panel": {
+        "default_path": "sidepanel.html",
+        "openPanelOnActionClick": true
+      }
 }

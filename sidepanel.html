@@ -1,19 +1,27 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Sidepanel</title>
-  </head>
-  <body>
-    <h1>All sites sidepanel extension</h1>
-    <p>This side panel is enabled on all sites</p>
-    <div class="content-img">
-        <ul class="content-img-list">
-        </ul>
-        <div class="file">
-            <i class="ico-plus"></i>Upload photo, support jpg/png<input type="file" name="file" accept="image/*" id="upload" >
-        </div>	
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Upload multiple images</title>
+	<link rel="stylesheet" type="text/css" href="upload_image.css">
+</head>
+<body>
+  <p> Upload images below</p>
+	<div class="upload-content">
+		<div class="content-img">
+        	<ul class="content-img-list">
+        	</ul>
+        	<div class="file">
+        		<i class="ico-plus"></i>Upload image here<input type="file" name="file" accept="image/*" id="upload" >
+        	</div>	
+        </div>
+        <div class="upload-tips">
+        	At most four images with 1M max
+        </div>
+	</div>
+	<div class="upload-submit">
+         <a href="javascript:;" id="btn-submit-upload" class="btn-submit-upload">Submit</a>
     </div>
-    <input type="file" name="" id="input_img" />
-    <div id="show_img"></div>
-  </body>
+	<script src="upload_image.js"></script>
+</body>
 </html>

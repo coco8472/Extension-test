@@ -1,7 +1,7 @@
 var imgFile = []; //文件流
 var imgSrc = []; //图片路径
 var imgName = []; //图片名字
-$(function(){
+(function(){
 	// 鼠标经过显示删除按钮
 	$('.content-img-list').on('mouseover','.content-img-list-item',function(){
 		$(this).children('a').removeClass('hide');

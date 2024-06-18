@@ -1,27 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Upload multiple images</title>
+	<title>AI Try On</title>
 	<link rel="stylesheet" type="text/css" href="upload_image.css">
 </head>
+
 <body>
-  <p> Upload images below</p>
+	<div class="main-page">
+		<div class="sub-title">
+			upload a photo of yourself
+		</div>
+		<div class="upload-area">
+			upload image here
+		</div>
+		<div class="sub-title">
+			upload a photo of the clothes
+		</div>
+		<div class="upload-area">
+			upload image here
+		</div>
+		<div class="submit-button">
+			Submit
+		</div>
+	</div>
+
+
+
 	<div class="upload-content">
 		<div class="content-img">
-        	<ul class="content-img-list">
-        	</ul>
-        	<div class="file">
-        		<i class="ico-plus"></i>Upload image here<input type="file" name="file" accept="image/*" id="upload" >
-        	</div>	
-        </div>
-        <div class="upload-tips">
-        	At most four images with 1M max
-        </div>
+			<ul class="content-img-list"></ul>
+			<div class="file">
+				<i class="ico-plus"></i>Upload image here<input type="file" name="file" accept="image/*" id="upload" />
+			</div>
+		</div>
+		<div class="upload-tips">
+			At most four images with 1M max
+		</div>
 	</div>
 	<div class="upload-submit">
-         <a href="javascript:;" id="btn-submit-upload" class="btn-submit-upload">Submit</a>
-    </div>
-	<script src="upload_image.js"></script>
+		<a href="javascript;" id="btn-submit-upload" class="btn-submit-upload">Submit</a>
+	</div>
 </body>
+
 </html>
+
+
+
+
+
+
+
